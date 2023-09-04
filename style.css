@@ -1,0 +1,143 @@
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.top{
+  display: flex;
+}
+.cimg{
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.cname{
+  color: white;
+  font-size: xx-large;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 90px;
+}
+.wmsg{
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.wmsg_welcome{
+  font-size: 2.5rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 700;
+}
+.wmsg_inside{
+  color: red;
+  text-decoration: underline;
+}
+.img_graph{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.screenshot{
+  width: 100%;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 26px;
+  width: 45%;
+  background-color: red;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.white-line{
+  border-top: 1px solid white;
+}
+.bottom{
+  display: flex;
+  max-width: 43%;
+}
+.eimg{
+  display: block;
+  padding: 50px 10px 55px 100%;
+  width: 40px;
+  height: 40px;
+}
+.ename{
+  color: white;
+  padding: 50px 100% 50px 10px;
+  font-size: large;
+  font-weight: bolder;
+  width: 90px;
+}
+.adil{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  margin-top: 40px;
+}
+.meet{
+  position: absolute;
+  left: 20%;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
+.future{
+  position: absolute;
+  right: 5.5%;
+  width: 43%;
+  height: 97%;
+}
+
+@media screen and (max-width: 600px) {
+  a.button{
+  font-size: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  }
+  .future{
+    height: 38%;
+  }
+  .wmsg{
+    font-size: 16px;
+  }
+  .adil{
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    left: 10%;
+  }
+}
