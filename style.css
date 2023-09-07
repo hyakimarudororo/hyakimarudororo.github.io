@@ -115,21 +115,12 @@ a.button {
   font-size: 70px;
   font-weight: 700;
 }
-.future{
-  position: absolute;
-  right: 5.5%;
-  width: 43%;
-  height: 97%;
-}
 
 @media screen and (max-width: 600px) {
   a.button{
   font-size: 12px;
   padding-top: 24px;
   padding-bottom: 24px;
-  }
-  .future{
-    height: 38%;
   }
   .wmsg{
     font-size: 16px;
